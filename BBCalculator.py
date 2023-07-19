@@ -18,7 +18,7 @@ def calculate_results():
     overall_total = team_a_total + team_b_total
     average_total = overall_total / 10
 
-    pick_for_this_match = average_total - 10
+    pick_for_this_match = average_total - 5
 
     print("Team A Totals:", team_a_totals)
     print("Team B Totals:", team_b_totals)
